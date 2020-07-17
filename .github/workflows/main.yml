@@ -16,9 +16,9 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          port: ${{ secrets.PORT }}
+          #port: ${{ secrets.PORT }}
           key: ${{ secrets.SSHKEY }}
-          passphrase: ${{secrets.PASSPHRASE}}
+          #passphrase: ${{secrets.PASSPHRASE}}
           script: |
               whoami
               ls -al
